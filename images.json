@@ -1,0 +1,50 @@
+[
+  {
+    "name": "rabbitmq",
+    "image": "rabbitmq",
+    "tag": "4-management",
+    "platforms": [ "linux/arm64", "linux/amd64"]
+  },
+  {
+    "name": "postgres",
+    "image": "postgres",
+    "tag": "15-alpine",
+    "platforms": [ "linux/arm", "linux/amd64"]
+  },
+  {
+    "name": "pgadmin4",
+    "image": "dpage/pgadmin4",
+    "tag": "9.4.0",
+    "platforms": [ "linux/arm64", "linux/amd64"]
+  },
+  {
+    "name": "redis",
+    "image": "redis",
+    "tag": "7-alpine",
+    "platforms": [ "linux/arm64", "linux/amd64"]
+  },
+  {
+    "name": "mongo",
+    "image": "mongo",
+    "tag": "7-jammy",
+    "platforms": [ "linux/arm64", "linux/amd64"]
+  },
+  {
+    "name": "mongo-express",
+    "image": "mongo-express",
+    "tag": "latest",
+    "platforms": [ "linux/arm64", "linux/amd64"]
+  },
+  {
+    "name": "gitea",
+    "image": "docker.gitea.com/gitea",
+    "tag": "1.24.2-rootless",
+    "platforms": [ "linux/arm64", "linux/amd64"]
+  },
+  {
+    "name": "gitea",
+    "image": "docker.gitea.com/gitea",
+    "tag": "1.24.2",
+    "platforms": [ "linux/arm64", "linux/amd64"]
+  }
+]
