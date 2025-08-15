@@ -1,10 +1,14 @@
 #!/usr/bin/env pwsh
 try {
+    $tencentyun = "ccr.ccs.tencentyun.com/stargazer"
     $images = Get-Content -Path "images.json" -Raw | ConvertFrom-Json
     if (-not $images) { throw "images.json is empty or invalid" }
 
-    $tencentyun = "ccr.ccs.tencentyun.com/stargazer"
     foreach ($image in $images) {
+        if ($image.disabled) {
+            Write-Host "Skipping disabled image: $($image.name):$($image.tag)"
+            continue
+        }
         Write-Host "Processing image: $($image.name):$($image.tag)"
 
         foreach ($platform in $image.platforms) {
