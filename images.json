@@ -54,5 +54,12 @@
     "tag": "1.24.2",
     "platforms": [ "linux/arm64", "linux/amd64"],
     "disabled": true
+  },
+  {
+    "name": "keycloak",
+    "image": "quay.io/keycloak/keycloak",
+    "tag": "26.4.6",
+    "platforms": [ "linux/arm64", "linux/amd64"],
+    "disabled": false
   }
 ]
