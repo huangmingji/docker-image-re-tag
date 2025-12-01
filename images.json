@@ -60,6 +60,13 @@
     "image": "quay.io/keycloak/keycloak",
     "tag": "26.4.6",
     "platforms": [ "linux/arm64", "linux/amd64"],
+    "disabled": true
+  },
+  {
+    "name": "seq",
+    "image": "datalust/seq",
+    "tag": "2025.2",
+    "platforms": [ "linux/arm64", "linux/amd64"],
     "disabled": false
   }
 ]
