@@ -67,7 +67,7 @@
     "image": "datalust/seq",
     "tag": "2025.2",
     "platforms": [ "linux/arm64", "linux/amd64"],
-    "disabled": false
+    "disabled": true
   },
   {
     "name": "ollama",
