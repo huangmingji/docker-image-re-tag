@@ -68,5 +68,12 @@
     "tag": "2025.2",
     "platforms": [ "linux/arm64", "linux/amd64"],
     "disabled": false
+  },
+  {
+    "name": "ollama",
+    "image": "ollama/ollama",
+    "tag": "0.13.0",
+    "platforms": [ "linux/arm64", "linux/amd64"],
+    "disabled": false
   }
 ]
