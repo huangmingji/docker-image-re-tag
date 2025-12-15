@@ -74,6 +74,13 @@
     "image": "ollama/ollama",
     "tag": "0.13.0",
     "platforms": [ "linux/arm64", "linux/amd64"],
+    "disabled": true
+  },
+  {
+    "name": "mysql",
+    "image": "library/mysql",
+    "tag": "9.5",
+    "platforms": [ "linux/arm64", "linux/amd64"],
     "disabled": false
   }
 ]
