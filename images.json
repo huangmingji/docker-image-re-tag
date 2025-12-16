@@ -81,6 +81,13 @@
     "image": "library/mysql",
     "tag": "9.5",
     "platforms": [ "linux/arm64", "linux/amd64"],
+    "disabled": true
+  },
+  {
+    "name": "pgweb",
+    "image": "sosedoff/pgweb",
+    "tag": "latest",
+    "platforms": [ "linux/arm64", "linux/amd64"],
     "disabled": false
   }
 ]
