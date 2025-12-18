@@ -16,9 +16,9 @@
   {
     "name": "pgadmin4",
     "image": "dpage/pgadmin4",
-    "tag": "9.4.0",
+    "tag": "9.11.0",
     "platforms": [ "linux/arm64", "linux/amd64"],
-    "disabled": true
+    "disabled": false
   },
   {
     "name": "redis",
@@ -88,6 +88,6 @@
     "image": "sosedoff/pgweb",
     "tag": "latest",
     "platforms": [ "linux/arm64", "linux/amd64"],
-    "disabled": false
+    "disabled": true
   }
 ]
