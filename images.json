@@ -18,7 +18,7 @@
     "image": "dpage/pgadmin4",
     "tag": "9.11.0",
     "platforms": [ "linux/arm64", "linux/amd64"],
-    "disabled": false
+    "disabled": true
   },
   {
     "name": "redis",
@@ -44,16 +44,16 @@
   {
     "name": "gitea",
     "image": "docker.gitea.com/gitea",
-    "tag": "1.24.2-rootless",
+    "tag": "1.25.3-rootless",
     "platforms": [ "linux/arm64", "linux/amd64"],
-    "disabled": true
+    "disabled": false
   },
   {
     "name": "gitea",
     "image": "docker.gitea.com/gitea",
-    "tag": "1.24.2",
+    "tag": "1.25.3",
     "platforms": [ "linux/arm64", "linux/amd64"],
-    "disabled": true
+    "disabled": false
   },
   {
     "name": "keycloak",
