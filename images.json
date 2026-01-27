@@ -95,7 +95,7 @@
     "image": "loicsharma/baget",
     "tag": "latest",
     "platforms": [ "linux/arm64", "linux/amd64"],
-    "disabled": true
+    "disabled": false
   },
   {
     "name": "n8nio/n8n",
