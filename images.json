@@ -46,14 +46,14 @@
     "image": "docker.gitea.com/gitea",
     "tag": "1.25.3-rootless",
     "platforms": [ "linux/arm64", "linux/amd64"],
-    "disabled": false
+    "disabled": true
   },
   {
     "name": "gitea",
     "image": "docker.gitea.com/gitea",
     "tag": "1.25.3",
     "platforms": [ "linux/arm64", "linux/amd64"],
-    "disabled": false
+    "disabled": true
   },
   {
     "name": "keycloak",
@@ -89,5 +89,12 @@
     "tag": "latest",
     "platforms": [ "linux/arm64", "linux/amd64"],
     "disabled": true
+  },
+  {
+    "name": "baget",
+    "image": "loicsharma/baget",
+    "tag": "latest",
+    "platforms": [ "linux/arm64", "linux/amd64"],
+    "disabled": false
   }
 ]
