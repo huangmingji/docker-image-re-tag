@@ -98,8 +98,8 @@
     "disabled": false
   },
   {
-    "name": "n8nio/n8n",
-    "image": "n8n",
+    "name": "n8n",
+    "image": "n8nio/n8n",
     "tag": "latest",
     "platforms": ["linux/amd64", "linux/arm64"],
     "disabled": false
